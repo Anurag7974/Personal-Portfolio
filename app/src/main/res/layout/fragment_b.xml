@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_01"
+    tools:context=".fragments.FragmentB">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="17dp"
+            android:src="@drawable/circle_black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="17dp"
+            android:src="@drawable/circle_filled"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <ImageView
+            android:id="@+id/circleThree"
+            android:layout_width="14dp"
+            android:layout_height="17dp"
+            android:src="@drawable/circle_black"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/skip"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/hello" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/welcome"
+     android:textSize="60sp"
+     android:textColor="@color/white"
+     android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_my_protfolio"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move_step_by_step_to_see_my_work"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"/>
+
+
+</LinearLayout>
+
+
+
+
+</FrameLayout>
