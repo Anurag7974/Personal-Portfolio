@@ -6,13 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.akportfolio.R
-
+/*
 class PageFragment : Fragment() {
     var position : Int = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         position = arguments?.getInt("POSITION")!!
+
+
     }
 
     override fun onCreateView(
@@ -34,7 +36,10 @@ class PageFragment : Fragment() {
             1 -> return
             2 -> return
             3 -> return
+
         }
     }
 
 }
+
+ */

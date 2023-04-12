@@ -1,17 +1,21 @@
 <resources>
     <string name="app_name">AK Portfolio</string>
-    <string name="my_portfolio"> MY PORTFOLIO</string>
+    <string name="my_portfolio">  MY PORTFOLIO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="skip">Skip</string>
     <string name="portfolio">Portfolio</string>
     <string name="_2023">2023\'</string>
     <string name="android">Android \nDeveloper</string>
-    <string name="intro">Hi, I\'m Anurag Kewat. \n     Fresher Android \n        Developer</string>
+    <string name="intro">Hi, I\'m Anurag Kewat.    \n   Fresher Android   \n    Developer.</string>
+    <string name="intro2">Fresher Android</string>
+    <string name="intro3">Developer</string>
     <string name="anurag_kewat">Anurag Kewat</string>
     <string name="developer_amp_designer"><![CDATA[Developer & Designer]]></string>
     <string name="welcome">Welcome</string>
     <string name="to_my_protfolio">To My Protfolio</string>
     <string name="move_step_by_step_to_see_my_work">Move step by step to see my work</string>
-    <string name="get_to_know_me">    Get to know me    </string>
+    <string name="get_to_know_me">      Get to know me    </string>
+    <string name="todo">TODO</string>
+    <string name="next">Next</string>
 </resources>

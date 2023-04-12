@@ -23,7 +23,7 @@
             android:layout_height="17dp"
             android:src="@drawable/circle_black"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="40dp"
             />
 
         <ImageView
@@ -31,7 +31,7 @@
             android:layout_height="17dp"
             android:src="@drawable/circle_filled"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="40dp"
             />
 
         <ImageView
@@ -40,14 +40,14 @@
             android:layout_height="17dp"
             android:src="@drawable/circle_black"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="40dp"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="240dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="35dp"
             android:text="@string/skip"
             android:textColor="@color/yellow"
             android:textSize="20sp"
