@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
 }
 
 android {
@@ -28,6 +29,21 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    viewBinding{
+        enabled = true
+    }
+
+    dataBinding{
+        //noinspection DataBindingWithoutKapt
+        enabled = true  //enable data binding
+    }
+    buildFeatures {
+        viewBinding true
+    }
+
 }
 
 dependencies {
@@ -51,4 +67,23 @@ dependencies {
     implementation 'com.cuberto:liquid-swipe:1.0.0'
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+
+    //    Sliding Now Navigation
+    implementation 'com.yarolegovich:sliding-root-nav:1.1.1'
+
+//    Slider Navigation Drawer
+    implementation 'nl.psdcompany:duo-navigation-drawer:3.0.0'
+
+//    Profile circle
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+//    Progress Bar
+    implementation 'com.mikhaellopez:circularprogressbar:3.1.0'
+
+//    Card View Animation in Projects
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:29.0.0'
 }

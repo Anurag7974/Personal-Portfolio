@@ -3,7 +3,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-
+        jcenter()
+        maven { url 'https://jitpack.io'}
 
 
     }
@@ -20,7 +21,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io'}
+        jcenter()
+        maven { url "https://jitpack.io" }
         def githubProperties = new Properties()
         githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
         repositories {

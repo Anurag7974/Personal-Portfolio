@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_viw">
+
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/baseline_person_24"
+        android:title="About" />
+
+    <item
+        android:id="@+id/nav_skills"
+        android:icon="@drawable/baseline_wb_incandescent_24"
+        android:title="Skills"/>
+
+    <item
+        android:id="@+id/nav_education"
+        android:icon="@drawable/baseline_school_24"
+        android:title="Education"/>
+    <item
+        android:id="@+id/nav_project"
+        android:icon="@drawable/baseline_mobile_screen_share_24"
+        android:title="Projects"/>
+    <item
+        android:id="@+id/nav_interests"
+        android:icon="@drawable/baseline_miscellaneous_services_24"
+        android:title="Interests"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/baseline_phone_24"
+        android:title="Contact"/>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"/>
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="Exit"/>
+    </group>
+</menu>

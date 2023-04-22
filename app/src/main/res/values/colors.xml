@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_200">#FDF8E1</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
@@ -10,4 +10,12 @@
     <color name="one">#692BE4</color>
     <color name="yellow">#FFEB3B</color>
     <color name="back_01">#692BE4</color>
- </resources>
+    <color name="yellow_01">#FFE468</color>
+    <color name="cream">#FDF8E1</color>
+    <color name="yellow_02">#FFDA3D</color>
+    <color name="status_bar_color">#FFDA3D</color>
+    <color name="skill_1">#427CB3C7</color>
+    <color name="skill_2">#757CB3C7</color>
+    <color name="skill_3">#6B7CB3C7</color>
+    <color name="skill_4">#7CB3C7</color>
+</resources>

@@ -18,4 +18,35 @@
     <string name="get_to_know_me">      Get to know me    </string>
     <string name="todo">TODO</string>
     <string name="next">Next</string>
+    <string name="contact">Contact</string>
+    <string name="exit">Exit</string>
+    <string name="log_off">Log Off</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="home">Home</string>
+    <string name="personal">Personal</string>
+    <string name="high_scores">High scores</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="gmail">anuragkewat7974@gmail.com</string>
+    <string name="ak_portfolio">AK PORTFOLIO </string>
+    <string name="description">Android Developer </string>
+    <string name="description_01">Gujarat, India </string>
+    <string name="description_02">I am a software engineer based in Gujarat, India. I specialize in android development for mobile applications. </string>
+    <string name="description_03">I am specializing in Android development. \nI stay up to date with the latest technologies. </string>
+    <string name="description_04">Bachelor of Engineering - \nB.Tech, Computer Science \nAccredited with the highest \ngrade of <b>NAAC A++</b> </string>
+    <string name="description_05">Gavs H.S. School \n<b>Delhi Board</b> </string>
+    <string name="description_06">D.V.M Public School \n<b>CBSE Board</b> </string>
+    <string name="description_07">IT SPECIALIST \nParul University</string>
+    <string name="description_08">Worked as a maintenance engineer, \ndiagnosed and fixed software and \nhardware related issues of university OS \nsever.</string>
+    <string name="description_09">Coached new interns on technical duties \nand managed training.</string>
+    <string name="description_10">There is still a lot to discover, \ncreate, and solve. That\'s why I\'m \nstriving to work on projects that \nbring tomorrow to today.</string>
+    <string name="jki">TODO</string>
+    <string name="parul_university">Parul University</string>
+    <string name="_2020_2024">2020 - 2024</string>
+    <string name="todpo">TODO</string>
+    <string name="write_100_words_a_day_every_day_for_one_month">Write 100 Words a Day, Every Day for One Month</string>
+    <string name="tilte01"><b>Write 100 Words a Day, Every Day for One Month</b>\nThat\'s what we do here. We\'ve been doing it since May 2001. Which, by our reckoning,
+
+</string>
 </resources>

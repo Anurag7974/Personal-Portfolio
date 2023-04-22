@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical"
+    tools:context=".navigatuindrawer.EducationFragment">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:ignore="ScrollViewCount">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Education"
+               android:textSize="30sp"
+               android:textColor="@color/black"
+               android:fontFamily="@font/gabriela"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"
+               />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:src="@drawable/dot"
+               android:layout_marginTop="10dp"
+               android:contentDescription="@string/jki" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/parul_university"
+               android:textSize="20sp"
+               android:textColor="@color/black"
+               android:fontFamily="@font/gabriela"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="8dp"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/_2020_2024"
+               android:textSize="20sp"
+               android:textColor="@color/black"
+               android:fontFamily="@font/gabriela"
+               android:layout_marginStart="40dp"
+               android:layout_marginTop="8dp"
+               android:textStyle="bold"/>
+       </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="3dp"
+                   android:layout_height="130dp"
+                   android:layout_marginStart="30dp"
+                   android:background="@color/black"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_04"
+                   android:textSize="18sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="32dp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/dot"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="HSC Study"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="2020"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="160dp"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <View
+                   android:layout_width="3dp"
+                   android:layout_height="100dp"
+                   android:layout_marginStart="30dp"
+                   android:background="@color/black"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_05"
+                   android:textSize="18sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="32dp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/dot"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="SSC Study"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="2018"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="160dp"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_06"
+                   android:textSize="18sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="65dp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <View
+               android:layout_width="500dp"
+               android:layout_height="1dp"
+               android:layout_marginTop="20dp"
+               android:background="#B3000000"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Internship(s)"
+               android:textSize="25sp"
+               android:textColor="@color/black"
+               android:fontFamily="@font/gabriela"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"
+               />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_07"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="2022"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="150dp"
+                   android:layout_marginTop="8dp"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/dot"
+                   android:layout_marginTop="10dp"
+                   android:contentDescription="@string/jki" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_08"
+                   android:textSize="18sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginTop="8dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/dot"
+                   android:layout_marginTop="10dp"
+                   android:contentDescription="@string/jki" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/description_09"
+                   android:textSize="18sp"
+                   android:textColor="@color/black"
+                   android:fontFamily="@font/gabriela"
+                   android:layout_marginStart="10dp"
+                   android:layout_marginBottom="20dp"
+                   android:layout_marginTop="8dp"
+                   />
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+   </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
